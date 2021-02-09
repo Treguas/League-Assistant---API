@@ -1,0 +1,154 @@
+
+.titulo {
+  margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-subtitle, 
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Poppins', sans-serif;
+  animation: blinking-title 500ms steps(40) infinite normal, animacaoTitulo 2s steps(40) 0.5s normal both;
+}
+
+.site-subtitle {
+ opacity: 0;
+ font-style: italic;
+ font-family: 'Poppins', sans-serif;
+ line-height: 1.8em;
+ animation: linear 1s 2.5s subtitle-animation forwards;
+}
+
+/*  Parallax */
+section.main-section {
+  background-image: url('../img/kalista.jpg');
+  background-repeat: no-repeat;
+  background-position: center-top;
+  background-size: cover;
+  background-attachment: fixed;  
+  height: max-content;
+}
+
+section h2 {
+  padding: 16px 16px;
+}
+
+/* SOBRE */
+section.sobre {
+  display: flex;
+  height: max-content;
+
+}
+
+figure.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sobre {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 14rem;
+}
+
+.texto-sobre p{
+  font-size: 1.6em;
+  text-align: justify;
+}
+
+/* CONTATO */
+section.contato {
+  background-color:rgb(124, 121, 121);
+  height: max-content;
+}
+
+.contato .icons {
+  text-align: center;
+}
+
+.contato a {
+  color: whitesmoke;
+  font-size: 4em;
+  transition: text-shadow 1s;
+}
+
+.contato a:active,
+.contato a:hover  {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+.follow {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.whatsapp {
+  width: 50px;
+  right: 55px;
+	position: fixed;
+	bottom: 95px; 
+}
+
+#caixaTexto {
+	background: #fff;
+	color: #333;
+	position: fixed;
+	width: 130px;
+	bottom: 55px;
+	right: 122px;
+	font-size: 16px;
+	line-height: 15px;
+	padding: 12px;
+	border-radius: 10px;
+	border: 1px solid #e2e2e2;
+	visibility: hidden;
+}
+
+.devTreguas {
+  border-radius: 150px;
+  border-radius: 50%;
+  border: 5px solid #4e4d4d;
+  margin-bottom: 32px;
+  height: 300px;
+}
+
+
+.box {
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border:1px solid #444;
+  width:300px;
+}
+
+.box input {
+  outline:0;
+  border:0;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box .button {  
+  background: #aaa;
+  color: #fff;
+  font-weight: bold;
+  border:none;
+  float:right;
+  padding: 5px 10px;
+  cursor: pointer;  
+}

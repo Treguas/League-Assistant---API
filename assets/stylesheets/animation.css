@@ -1,0 +1,24 @@
+@keyframes animacaoTitulo {
+    from {
+      width: 0;
+    }
+    to {
+      width: 8.3em;
+    }
+}
+  
+  @keyframes blinking-title {
+    from {
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      }
+      to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes subtitle-animation {
+  100%
+  {
+   opacity: 1;
+  } 
+}
