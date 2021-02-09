@@ -10,3 +10,9 @@ buttonSearch.addEventListener("click", ()=> {
 close.addEventListener("click", ()=> {
     modal.classList.add("hide")
 })
+//codigo acima relacionado a criar a pagina em cima da page home!
+
+
+
+//Itens
+//div id="itens"
