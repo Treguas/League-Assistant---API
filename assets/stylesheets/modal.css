@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #modal .content {
@@ -16,19 +17,24 @@
     justify-content: center;
 }
 
-#modal .header {
+#modal {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* flex-direction: column; */
     margin-bottom: 48px;
 }
 
-#modal .header a {
+#modal a {
     background-image: url("../img/x.svg");
     width: 20px;
     height: 20px;
     display: flex;
+    align-items: center;
     font-size: 0.01px;
+    position: fixed;
+    margin-top: 8px;
+    top: 0;
 }
 
 #modal .header h1 {
@@ -37,39 +43,29 @@
     line-height: 42px;
 }
 
-#modal form label {
-    font-size: 20px;
-    line-height: 16px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-#modal form .field {
-    display: flex;
-}
-
-#modal form input {
-    flex: 1;
-    background-color: #fff;
-    border-radius: 8px 0 0 8px;
-    border: 0;
-    padding: 16px 24px;
-    font-size: 16px;
-    color: #6c6c80;
-}
-
-#modal form button {
-    width: 72px;
-    height: 72px;
-    background-color: rgb(65, 63, 63);
-    border: 0;
-    border-radius: 0 8px 8px 0;
-}
-
-#modal form button:hover {
-    background-color: #16a085;
-}
-
 #modal.hide {
     display: none;
 }
+
+.content-items {
+    visibility: visible;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: center;
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+#build {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 0.9rem;
+    width: 95%;
+    visibility: hidden;
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+
+}
+

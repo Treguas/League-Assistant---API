@@ -45,6 +45,11 @@ section.portfolio ul {
     width: 50%;
 }
 
+.img-portfolio {
+    width: 100%;
+    border: 1px solid #fff
+}
+
 .btn {
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -67,7 +72,8 @@ section.portfolio ul {
 
 #close {
     width: 50%;
-    top: 824px;
+    height: 50%;
+    top: 79%;
 }
 
 .box_img img {

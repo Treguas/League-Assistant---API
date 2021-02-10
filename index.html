@@ -54,16 +54,9 @@
       </nav>
     </header>
 
-
-
     <section class="main-section container" id="home">
       <h2>Campeões</h2>
-      <div class="box-search">
-      <div class="box">
-        <input type="text" name="search" placeholder="Digite um Campeão" />
-        <button type="submit" class="button">Pesquisar</button>
-      </div>
-    </div>
+
       
 
       <div class="titulo">
@@ -79,10 +72,23 @@
 
     </section>
 
+    <section id="champions">
+      <div class="box-search">
+        <div class="box">
+          <input type="text" name="search" placeholder="Digite um Campeão" />
+          <button type="submit" class="button">Pesquisar</button>
+        </div>
+      </div>
+
+
+
+    </section>
+
 
     <section class="sobre" id="sobre">
 
       <h2>Sobre</h2>
+
 
       
 
@@ -115,7 +121,7 @@
 
 
     <section class="portfolio" id="portfolio">
-      <h2>Projetos</h2>
+      <h2>Portfólio</h2>
       <ul>
         <li><a href="#img1"><img src="./assets/img/01.png" class="min"></a></li>
         <li><a href="#img2"><img src="./assets/img/02.png" class="min"></a></li>
@@ -127,7 +133,7 @@
         <div class="box_img">
           <a href="#img4" class="btn" id="prev">&#171</a>
           <a href="" class="btn" id="close">X</a>
-          <img src="./assets/img/01.png" alt="">
+          <img src="./assets/img/01.png" class="img-portfolio" alt="">
           <a href="#img2" class="btn" id="next">&#187</a>
         </div>
       </div>
@@ -136,7 +142,7 @@
         <div class="box_img">
           <a href="#img1" class="btn" id="prev">&#171</a>
           <a href="" class="btn" id="close">X</a>
-          <img src="./assets/img/02.png" alt="">
+          <img src="./assets/img/02.png" class="img-portfolio" alt="">
           <a href="#img3" class="btn" id="next">&#187</a>
         </div>
       </div>
@@ -145,7 +151,7 @@
         <div class="box_img">
           <a href="#img2" class="btn" id="prev">&#171</a>
           <a href="" class="btn" id="close">X</a>
-          <img src="./assets/img/03.png" alt="">
+          <img src="./assets/img/03.png" class="img-portfolio" alt="">
           <a href="#img4" class="btn" id="next">&#187</a>
         </div>
       </div>
@@ -154,7 +160,7 @@
         <div class="box_img">
           <a href="#img3" class="btn" id="prev">&#171</a>
           <a href="" class="btn" id="close">X</a>
-          <img src="./assets/img/04.png" alt="">
+          <img src="./assets/img/04.png" class="img-portfolio" alt="">
           <a href="#img1" class="btn" id="next">&#187</a>
         </div>
       </div>
@@ -186,18 +192,26 @@
     </section>
 
 
+
     <div id="modal" class="hide">
+      <a href="#" id="close">Fechar</a>
+      <div class="content-items">
+      </div>
+      <div>
+        <div id="build"></div>
+      </div>
+      
       <div class="content">
           <div class="header">
-              <h1>Itens</h1>
-              <a href="#">Fechar</a>
           </div>
+
+              
       </div>
   </div>
 
 
-
-
 <script src="./assets/js/app.js"></script>
+<script src="./assets/js/items.js"></script>
+
   </body>
 </html>
