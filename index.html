@@ -73,7 +73,7 @@
       <div class="box-search">
         <div class="box">
           <input type="text" id="input-champion" name="search" placeholder="Digite um Campeão" />
-          <button type="submit" class="button">Pesquisar</button>
+          <button type="submit" class="button" onclick="getChampions()">Pesquisar</button>
         </div>
       </div>
 
@@ -90,31 +90,22 @@
 
       <h2>Sobre</h2>
 
+      <div class="content-about">
 
-      
+        <div class="factionsList">
 
-      <figure class="avatar">
-        <img src="./assets/img/kalista.jpg" alt="Vagner Treguas" class="devTreguas">
-      </figure>
+          <a class="factionWrapper" href="https://universe.leagueoflegends.com/pt_BR/region/bandle-city/" target="_blank">
+            <div class="card">
+              <img src="./assets/img/splash_bandopolis.jpg" alt="">
+                <div class="card-front">
+                <img class="img_card" src="./assets/img/bandopolis.png" alt="bandopolis">
+                <h3 class="CH3"> Bandopólis</h3>
+              </div>
+            </div>
+          </a>
 
-      <div class="texto-sobre">
-
-        <div class="style__TitleWrapper-htv00w-1 gzYhfD" style="transform: translate3d(0px, 0px, 0px);"><div class="style__Wrapper-sc-14gxj1e-0 dJjBCP"><h1 class="style__Heading-sc-14gxj1e-1 jWvpDq"><span class="style__Intro-sc-14gxj1e-2 fmCNnE"><div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-nw" style="animation-duration: 2800ms; animation-delay: 600ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Welcome to The Rift</span></div></span><strong class="style__Title-sc-14gxj1e-3 iLTyui"><div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-se" style="animation-duration: 2000ms; animation-delay: 500ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Learn The Basics</span></div></strong></h1></div></div>
-        <h1 class="style__Heading-sc-14gxj1e-1 jWvpDq"><span class="style__Intro-sc-14gxj1e-2 fmCNnE"><div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-nw" style="animation-duration: 2800ms; animation-delay: 600ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Welcome to The Rift</span></div></span><strong class="style__Title-sc-14gxj1e-3 iLTyui"><div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-se" style="animation-duration: 2000ms; animation-delay: 500ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Learn The Basics</span></div></strong></h1>
-        <span class="style__Intro-sc-14gxj1e-2 fmCNnE"><div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-nw" style="animation-duration: 2800ms; animation-delay: 600ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Welcome to The Rift</span></div></span>
-        <div class="style__RevealWrapper-cwgjme-0 jaWYak inline show-nw" style="animation-duration: 2800ms; animation-delay: 600ms; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"><span>Welcome to The Rift</span></div>
-  
-
-      <p>
-        asdfasefadfgasdfgasdfasdfasdfasdfgasfhfjfghjkfghjdfghargasdfgasf
-      </p>
-
-      <p>
-        👨🏽‍💻 asdfasdfasdfasdfasdfasdfasdfasdfasedfaqwertahfasdfghsdf
-      </p>
-      
-      <p>asdfasdfasdfasdfasdfasdf</p>
-
+      </div>
+        
       </div>
 
 
@@ -212,6 +203,7 @@
 
 
 <script src="./assets/js/app.js"></script>
+<script src="./assets/js/champions.js"></script>
 <script src="./assets/js/items.js"></script>
 
   </body>

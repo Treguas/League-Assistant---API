@@ -50,22 +50,22 @@ section.sobre {
 
 }
 
-figure.avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.factionsList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.texto-sobre {
-  display: flex;
-  flex-direction: column;
-  max-width: 700px;
-  margin: 14rem;
+.factionsList .card {
+  position: relative;
 }
 
-.texto-sobre p{
-  font-size: 1.6em;
-  text-align: justify;
+.factionsList img {
+  width: 200px;
+}
+
+.factionsList .card-front {
+  position: absolute;
 }
 
 /* CONTATO */
@@ -96,13 +96,6 @@ section.contato {
   margin-bottom: 40px;
 }
 
-.whatsapp {
-  width: 50px;
-  right: 55px;
-	position: fixed;
-	bottom: 95px; 
-}
-
 #caixaTexto {
 	background: #fff;
 	color: #333;
@@ -116,6 +109,11 @@ section.contato {
 	border-radius: 10px;
 	border: 1px solid #e2e2e2;
 	visibility: hidden;
+}
+
+figure.avatar {
+  display: flex;
+  justify-content: center;
 }
 
 .devTreguas {
@@ -157,4 +155,42 @@ section.contato {
   float:right;
   padding: 5px 10px;
   cursor: pointer;  
+}
+
+
+/* PESQUISA DE CAMPEOÕES */
+.content-champions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 10rem 2rem 10rem;
+}
+
+.champions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.fotoMain {
+  border: 5px solid #cb00f3;
+  margin: 0.4rem;
+
+}
+
+.passive, .spellQ, .spellW, .spellE, .spellR {
+  border: 1px solid #fff;
+  margin: 0.4rem;
+}
+
+.hability {
+  margin: 0.4rem;
+  font-size: smaller;
+  color: #f7f767;
+}
+
+.hability ~ p {
+  margin: 0.4rem;
+  font-size: small;
 }

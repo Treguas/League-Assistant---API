@@ -27,8 +27,8 @@
 
 #modal a {
     background-image: url("../img/x.svg");
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     font-size: 0.01px;
