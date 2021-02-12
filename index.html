@@ -33,7 +33,7 @@
         
         <ul class="list-auto">
           <li>
-            <a href="#home" title="home">Campeões</a>
+            <a href="#home" title="home">Home</a>
           </li>
           <li>
             <a href="#sobre" title="sobre">Game</a>
@@ -52,7 +52,7 @@
     </header>
 
     <section class="main-section container" id="home">
-      <h2>Campeões</h2>
+      <h2>League of Legends</h2>
 
       
 
@@ -67,8 +67,13 @@
     </section>
 
     <section id="champions">
+      
       <div class="box-search">
+        
         <div class="box">
+          <select class="championSelect">	
+            <option selected hidden></option>
+          </select>
           <input type="text" id="input-champion" name="search" placeholder="Digite um Campeão" />
           <button type="submit" class="button" onclick="getChampions()">Pesquisar</button>
         </div>
