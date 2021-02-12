@@ -1,4 +1,3 @@
-
 .titulo {
   margin-top: 10em;
   display: flex;
@@ -6,7 +5,7 @@
   justify-content: center;
 }
 
-.site-subtitle, 
+.site-subtitle,
 .site-title {
   color: whitesmoke;
   text-align: center;
@@ -17,25 +16,26 @@
   overflow: hidden;
   text-align: center;
   font-size: 4em;
-  font-family: 'Poppins', sans-serif;
-  animation: blinking-title 500ms steps(40) infinite normal, animacaoTitulo 2s steps(40) 0.5s normal both;
+  font-family: "Poppins", sans-serif;
+  animation: blinking-title 500ms steps(40) infinite normal,
+    animacaoTitulo 2s steps(40) 0.5s normal both;
 }
 
 .site-subtitle {
- opacity: 0;
- font-style: italic;
- font-family: 'Poppins', sans-serif;
- line-height: 1.8em;
- animation: linear 1s 2.5s subtitle-animation forwards;
+  opacity: 0;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8em;
+  animation: linear 1s 2.5s subtitle-animation forwards;
 }
 
 /*  Parallax */
 section.main-section {
-  background-image: url('../img/kalista.jpg');
+  background-image: url("../img/kalista.jpg");
   background-repeat: no-repeat;
   background-position: center-top;
   background-size: cover;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   height: max-content;
 }
 
@@ -47,25 +47,51 @@ section h2 {
 section.sobre {
   display: flex;
   height: max-content;
-
 }
 
 .factionsList {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.4rem;
+  position: relative;
 }
 
 .factionsList .card {
+  margin: 0.2rem;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #f0e6d2, #c89b3c);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  background-color: #000;
   position: relative;
 }
 
 .factionsList img {
-  width: 200px;
+  background-size: cover;
+  width: 24rem;
 }
 
-.factionsList .card-front {
+.img_card {
+  width: 100%;
+  height: 100%;
   position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.img_card:hover {
+  display: none;
+}
+
+.CH3 {
+  margin-left: 1.4rem;
+  color: #fff;
 }
 
 /* CONTATO */
@@ -85,9 +111,9 @@ section.contato {
 }
 
 .contato a:active,
-.contato a:hover  {
+.contato a:hover {
   text-decoration: none;
-  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
 .follow {
@@ -97,18 +123,18 @@ section.contato {
 }
 
 #caixaTexto {
-	background: #fff;
-	color: #333;
-	position: fixed;
-	width: 130px;
-	bottom: 55px;
-	right: 122px;
-	font-size: 16px;
-	line-height: 15px;
-	padding: 12px;
-	border-radius: 10px;
-	border: 1px solid #e2e2e2;
-	visibility: hidden;
+  background: #fff;
+  color: #333;
+  position: fixed;
+  width: 130px;
+  bottom: 55px;
+  right: 122px;
+  font-size: 16px;
+  line-height: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  visibility: hidden;
 }
 
 figure.avatar {
@@ -129,34 +155,32 @@ figure.avatar {
   justify-content: center;
 }
 
-
 .box {
   background: #fff;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  border:1px solid #444;
-  width:400px;
+  border: 1px solid #444;
+  width: 400px;
 }
 
 .box input {
-  outline:0;
-  border:0;
+  outline: 0;
+  border: 0;
   padding: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.box .button {  
+.box .button {
   background: #aaa;
   color: #fff;
   font-weight: bold;
-  border:none;
-  float:right;
+  border: none;
+  float: right;
   padding: 5px 10px;
-  cursor: pointer;  
+  cursor: pointer;
 }
-
 
 /* PESQUISA DE CAMPEOÕES */
 .content-champions {
@@ -176,10 +200,13 @@ figure.avatar {
 .fotoMain {
   border: 5px solid #cb00f3;
   margin: 0.4rem;
-
 }
 
-.passive, .spellQ, .spellW, .spellE, .spellR {
+.passive,
+.spellQ,
+.spellW,
+.spellE,
+.spellR {
   border: 1px solid #fff;
   margin: 0.4rem;
 }

@@ -1,32 +1,29 @@
-
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (max-width: 600px) {
   body {
     font-size: 16px;
   }
-  
+
   .site-title {
     font-size: 2.4em;
     animation: none;
   }
 
   .site-subtitle {
-      font-size: 2em;
-    }
-
+    font-size: 2em;
+  }
 
   h1 h2 {
-        font-family: 'Poppins', sans-serif;
-
-    }
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 /* breakpoint */
- @media (min-width: 600px) {
+@media (min-width: 600px) {
   body {
-         font-size: 18px;
-        }
-    }
+    font-size: 18px;
+  }
+}
 /* breakpoint */
 @media (min-width: 1200px) {
   body {
@@ -38,38 +35,35 @@
     flex-direction: column;
     max-width: 700px;
     margin: 12rem;
-      }
+  }
 
-  .texto-sobre p{
+  .texto-sobre p {
     font-size: 1em;
     text-align: justify;
-    }
+  }
 }
 
 @media (min-width: 600px) {
-    .texto-sobre {
-        display: flex;
-        flex-direction: column;
-        max-width: 900px;
-        margin: 12rem;
-      }
+  .texto-sobre {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 12rem;
+  }
 
-      .texto-sobre p{
-        font-size: 1em;
-        text-align: justify;
-      }
+  .texto-sobre p {
+    font-size: 1em;
+    text-align: justify;
+  }
 }
 
 @media (min-width: 560px) {
-
 }
 
 @media (min-width: 360px) {
-
 }
 
 @media (min-width: 414px) {
-
 }
 
 @media (min-width: 880px) {
@@ -79,8 +73,8 @@
     margin: 11rem;
   }
 
-   .texto-sobre p {
+  .texto-sobre p {
     font-size: 1em;
     text-align: justify;
-   }
+  }
 }
